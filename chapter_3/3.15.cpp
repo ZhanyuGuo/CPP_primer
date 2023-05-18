@@ -13,7 +13,7 @@ int main()
         svec.push_back(s);
     }
 
-    for (auto& item : svec)
+    for (auto &item : svec)
     {
         cout << item << " ";
     }
