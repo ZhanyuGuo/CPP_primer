@@ -16,5 +16,5 @@ int main()
         cout << str_in << endl;
     }
 
-    return 0;    
+    return 0;
 }

@@ -14,7 +14,7 @@ int main()
     const auto &j = 42;
     auto k = ci, &l = i;
     auto &m = ci, *p = &ci;
-    
+
     // 错误，两个初始化类型不同
     // auto &n = i, *p2 = &ci;
 

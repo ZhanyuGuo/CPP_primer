@@ -7,7 +7,7 @@ int main()
     const int *const p3 = &a;
     const int *p;
 
-    i = ic;   // 合法，左边为可变的变量
+    i = ic; // 合法，左边为可变的变量
     // p1 = p3;  // 非法，p3是常量指针
     // p1 = &ic; // 非法，ic是常量
     // p3 = &ic; // 非法，p3是指针常量
